@@ -6,6 +6,16 @@ This project details the loading, cleaning, and exploration of a dataset of groc
 - Google Colab
 - Tableau
 
+## Project Files
+- [Raw Dataset](grocery_store_data.csv)
+- [Colab Notebook](Grocery_Store_Data.ipynb)
+- [Cleaned Dataset](grocery_store_data_cleaned.csv)
+- [SuperSave Central Location Dashboard](https://public.tableau.com/views/GroceryStoreDataAnalysis_17772181309510/SSCDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [Store Totals Dashboard](https://public.tableau.com/views/GroceryStoreDataAnalysis-StoreTotals/StoreTotals?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [Item Totals Dashboard](https://public.tableau.com/views/GroceryStoreDataAnalysis-ItemTotals/ItemTotals?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [Customer Totals Dashboard](https://public.tableau.com/views/GroceryStoreDataAnalysis-CustomerTotals/CustomerTotals?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [Item Quantity per Avg Unit Price Dashboard](https://public.tableau.com/views/GroceryStoreDataAnalysis-QuantityperAvgUnityPrice/ItemPriceQuantity?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ## Project Workflow
 ### 1. Loading Dataset
 Loading public dataset from Kaggle into Google Colab notebook as a pandas dataframe.
@@ -61,3 +71,6 @@ Cleaned dataset used to create several dashboards reporting metrics on unique st
 3. Customer 7658 took the top spot in both total quantity of items bought and loyalty points earned, yet did not place in the top 10 in terms of total sales.
    
 ## How to Run
+1. Download the [raw dataset ](grocery_store_data.csv) file to be used in the Notebook.
+
+3. I would recommend loading the [Colab Notebook](Grocery_Store_Data.ipynb) file into google colab or jupyter notebook for running. The final output from that file will generate the [cleaned dataset](grocery_store_data_cleaned.csv).
